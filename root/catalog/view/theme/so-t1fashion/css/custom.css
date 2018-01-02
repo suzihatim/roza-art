@@ -1,0 +1,9 @@
+/*Add Css Custom Here*/
+.container-megamenu.horizontal ul.megamenu li .sub-menu .content .static-menu .menu ul ul li a, .container-megamenu.horizontal ul.megamenu .sub-menu .content .hover-menu .menu ul a.main-menu {
+    text-transform: none;
+}
+
+
+
+
+
