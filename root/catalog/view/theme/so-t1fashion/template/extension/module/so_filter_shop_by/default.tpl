@@ -257,13 +257,13 @@ jQuery(window).load(function($){
 						}
 						if(url.indexOf("subcate_id") != -1)	{
 							if(subcate_value_id != ""){
-								url = url.replace(/(&subcate_id=)[^\&]+/,'&subcate_id='+subcate_value_id);
+								url = url.replace(/(&subcate_id=)[^\&]+/, subcate_value_id);
 							}else{
 								url = url.replace(/(&subcate_id=)[^\&]+/,'');
 								location.href= url;
 							}
 						}else{
-							url = url+'&subcate_id='+subcate_value_id;
+							url = url+'/'+subcate_value_id;
 						}
 						product_arr_all = $(this).attr("data-list_product");
 						location.href= url;

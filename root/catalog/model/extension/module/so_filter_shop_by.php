@@ -293,8 +293,16 @@ class ModelExtensionModuleSofiltershopby extends Model {
 			{
 				$image = $this->model_tool_image->resize('placeholder.png', 20, 20);
 			}
+			
+			$url_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "url_alias WHERE `query` = 'category_id=".$item['category_id']."'");
+			if ($url_query->num_rows && $url_query->row['keyword']) {
+				$subcate_id = $url_query->row['keyword'];
+			} else {
+				$subcate_id = $item['keyword'];
+			}
+			
 			$subcategory_data[] = array(
-				'subcate_id' 			=> $item['category_id'],
+				'subcate_id' 			=> $subcate_id,
 				'subcate_image' 		=> $image,
 				'subcate_name'  		=> $item['cate_name'],
 				'subcate_value'  		=> "disp_opt_".$this->convertNameToParam($item['cate_name']),
@@ -304,6 +312,7 @@ class ModelExtensionModuleSofiltershopby extends Model {
 		}
 		return $subcategory_data;
 	}
+	
 	
 	public function convertNameToParam($string) {
 		//Lower case everything
