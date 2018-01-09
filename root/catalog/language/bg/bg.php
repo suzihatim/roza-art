@@ -16,7 +16,7 @@ $_['text_no']               = 'Не';
 $_['text_none']             = ' --- Нищо --- ';
 $_['text_select']           = ' --- Моля изберете --- ';
 $_['text_all_zones']        = 'Всички зони';
-$_['text_pagination']       = 'Показани са %d от %d общо %d (%d стр.)';
+$_['text_pagination']       = '%d - %d от %d';
 $_['text_loading']          = 'Зарежда се ...';
 $_['text_no_results']       = 'No results!';
 
