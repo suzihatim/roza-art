@@ -112,7 +112,7 @@ class ModelExtensionModuleSofiltershopby extends Model {
 	public function getAllProducts($category_id){
 		$sql = "SELECT DISTINCT p.product_id FROM ".DB_PREFIX."product AS p LEFT JOIN ".DB_PREFIX."product_description AS pd ON p.product_id = pd.product_id LEFT JOIN ".DB_PREFIX."product_to_category AS pc ON p.product_id = pc.product_id LEFT JOIN " . DB_PREFIX . "product_to_store p2s ON (p.product_id = p2s.product_id)";
 		$sql .= " WHERE";
-		$sql .= " p2s.store_id = '" . (int)$this->config->get('config_store_id') . "' AND pc.category_id = '".$category_id."' AND pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+		$sql .= " p2s.store_id = '" . (int)$this->config->get('config_store_id') . "' AND pc.category_id in (SELECT cat.category_id FROM " . DB_PREFIX . "category as cat WHERE cat.category_id = '" .$category_id. "' or (cat.parent_id = '" .$category_id. "' or cat.parent_id in (SELECT category_id FROM " . DB_PREFIX . "category where parent_id = '" .$category_id. "'))) AND pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
 		$query = $this->db->query($sql);
 		$product_data = array();
 		foreach($query->rows as $result)

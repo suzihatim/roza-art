@@ -80,8 +80,8 @@ class ModelCatalogProduct extends Model {
 		if (!empty($data['filter_category_id'])) {
 			if (!empty($data['filter_sub_category'])) {
 				$sql .= " AND cp.path_id = '" . (int)$data['filter_category_id'] . "'";
-			} else {
-				$sql .= " AND p2c.category_id = '" . (int)$data['filter_category_id'] . "'";
+			} else {				
+				$sql .= " AND p2c.category_id in (SELECT cat.category_id FROM " . DB_PREFIX . "category as cat WHERE cat.category_id = '" . (int)$data['filter_category_id'] . "' or (cat.parent_id = '" . (int)$data['filter_category_id'] . "' or cat.parent_id in (SELECT category_id FROM " . DB_PREFIX . "category where parent_id = '" . (int)$data['filter_category_id'] . "'))) ";
 			}
 
 			if (!empty($data['filter_filter'])) {
@@ -438,7 +438,7 @@ class ModelCatalogProduct extends Model {
 			if (!empty($data['filter_sub_category'])) {
 				$sql .= " AND cp.path_id = '" . (int)$data['filter_category_id'] . "'";
 			} else {
-				$sql .= " AND p2c.category_id = '" . (int)$data['filter_category_id'] . "'";
+				$sql .= " AND p2c.category_id in (SELECT cat.category_id FROM " . DB_PREFIX . "category as cat WHERE cat.category_id = '" . (int)$data['filter_category_id'] . "' or (cat.parent_id = '" . (int)$data['filter_category_id'] . "' or cat.parent_id in (SELECT category_id FROM " . DB_PREFIX . "category where parent_id = '" . (int)$data['filter_category_id'] . "'))) ";
 			}
 
 			if (!empty($data['filter_filter'])) {
