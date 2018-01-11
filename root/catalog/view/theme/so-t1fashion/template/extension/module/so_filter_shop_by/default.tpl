@@ -255,6 +255,7 @@ jQuery(window).load(function($){
 							subcate_value_id = subcate_value_id.replace(subcate_value+",","");
 							subcate_value_id = subcate_value_id.replace(subcate_value,"");
 						}
+						url = url.replace(/\?page=.+/, '');
 						if(url.indexOf("subcate_id") != -1)	{
 							if(subcate_value_id != ""){
 								url = url.replace(/(&subcate_id=)[^\&]+/, subcate_value_id);
