@@ -298,7 +298,7 @@ class ModelExtensionModuleSofiltershopby extends Model {
 			if ($url_query->num_rows && $url_query->row['keyword']) {
 				$subcate_id = $url_query->row['keyword'];
 			} else {
-				$subcate_id = $item['keyword'];
+				$subcate_id = $item['category_id'];
 			}
 			
 			$subcategory_data[] = array(
