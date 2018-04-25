@@ -1,6 +1,10 @@
 <?php
 	$url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 ?>
+
+<?php
+$hide_module = true;
+?>
 <div class="module so_filter_wrap <?php echo $class_suffix;?>">
 	<?php if($disp_title_module){?>
 		<h3 class="modtitle"><span><?php echo $head_name; ?></span></h3>
@@ -14,9 +18,9 @@
 				{
 					include("default_search.tpl");
 				}
-				{
-					include("default_subcategory.tpl");
-				}
+				//{
+				//	include("default_subcategory.tpl");
+				//}
 				
 				if($options_all != "" && count($options_all)>0) // Get All Option
 				{
@@ -30,7 +34,8 @@
 							}
 						}else{
 							if($disp_options['disp_opt_id_'.$item[3].'']){
-								include ("default_option.tpl");
+								$hide_module = false;
+								include ("default_option.tpl");								
 							}
 						}
 					}
@@ -42,6 +47,7 @@
 						$item = explode("_",$item);
 						if($disp_attributes_group['disp_att_group_id_'.$item[2]])
 						{
+							$hide_module = false;
 							include ("default_attribute.tpl");
 						}
 
@@ -89,7 +95,11 @@ jQuery(window).load(function($){
 		$maxPrice_new 		= <?php echo $maxPrice_new;?>,
 		url 				= '<?php echo $url?>';
 		text_search			= "<?php echo $text_search;?>";
+		
 	<?php //Init ?>
+	<?php if($hide_module) { ?>
+		$('.so_filter_wrap').hide();
+	<?php } ?>
 	obj_class.addClass('so-filter-gird');
 	$load_gif = $('.so-filter-gird');
 	$(".so-filter-heading").on("click",function(){

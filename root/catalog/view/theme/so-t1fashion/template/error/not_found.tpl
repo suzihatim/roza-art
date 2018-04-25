@@ -43,13 +43,11 @@
                 </div>
                 <div class="item-right col-lg-7 col-md-7">
                     <div class="block-top font-ct">
-                        <h2><span>Oops, <?php echo $heading_title; ?></span></h2>
-                        <div class="warning-code"><p><?php echo $text_error; ?></p></div>
+                        <h2><span><?php echo $text_error; ?></span></h2>
                     </div>
 
                     <div class="block-bottom">
-                        <a href="<?php echo $continue; ?>" class="btn btn-revo" title="<?php echo $button_continue; ?>"><?php echo $button_continue; ?></a>
-                        <a href="#" class="btn btn-revo" title="Go Support">Go Support</a>                  
+                        <a href="<?php echo $continue; ?>" class="btn btn-revo" title="<?php echo $button_continue; ?>"><?php echo $button_continue; ?></a>               
                     </div>
                 </div>
             </div>

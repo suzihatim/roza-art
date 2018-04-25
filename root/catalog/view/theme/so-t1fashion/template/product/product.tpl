@@ -262,7 +262,7 @@
 						<?php if ($points) { ?>
 						<div class="reward"><span><?php echo $text_points; ?></span> <?php echo $points; ?></div>
 						<?php } ?>
-						<div class="stock"><span><?php echo $text_stock; ?></span> <i class="fa fa-check-square-o"></i> <?php echo $stock; ?></div>	
+						<div class="stock"><i class="fa fa-check-square-o"></i> <?php echo $stock; ?></div>	
 					</div>		
 				</div>
 				
@@ -571,8 +571,8 @@
 							<li class="<?php echo (!$description && !$attribute_groups && !$review_status && !$tags ? 'active' : 'item_nonactive'); ?>"><a data-toggle="tab" href="#tab-5"><?php echo (!empty($tab_title) ? $tab_title : 'Custom block'); ?></a></li>
 							<?php endif; ?>
 							
-							<?php if ($tags) : ?>
-							<li class="<?php echo (!$description && !$attribute_groups && !$review_status ? 'active' : 'item_nonactive'); ?>"><a data-toggle="tab" href="#tab-4"><?php echo (!empty($soconfig_lang[$lang]["tags_tab_title"]) ? $soconfig_lang[$lang]["tags_tab_title"] : 'TAGS'); ?></a></li>
+							<?php if ($tags) : ?>							
+							<li class="<?php echo (!$description && !$attribute_groups && !$review_status ? 'active' : 'item_nonactive'); ?>"><a data-toggle="tab" href="#tab-4"><?php echo (!empty($text_tags) ? $text_tags : 'TAGS'); ?></a></li>							
 							<?php endif; ?>
 							
 							<?php if ($review_status) : ?>

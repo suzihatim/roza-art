@@ -8,7 +8,7 @@
  *      Bitcoin: 1P3Zk93fhKURWT1rXiYxiLGuJ59oETxuTi
  */
 // Text
-$_['text_refine']       = 'Филтриране';
+$_['text_refine']       = 'Подкатегории';
 $_['text_product']      = 'Продукти';
 $_['text_error']        = 'Категорията не беше намерена!';
 $_['text_empty']        = 'Няма продукти в тази категория.';

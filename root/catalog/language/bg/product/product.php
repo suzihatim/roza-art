@@ -24,10 +24,10 @@ $_['text_reviews']             = '%s отзива';
 $_['text_write']               = 'Напишете отзив';
 $_['text_login']               = 'Моля влезете в <a href="%s">профила</a> или се <a href="%s">регистрирайте</a>, за да напишете отзив.';
 $_['text_no_reviews']          = 'Този продукт няма отзиви.';
-$_['text_note']                = '<span class="text-danger">Бележка:</span> HTML не е преведен!';
+$_['text_note']                = '';
 $_['text_success']             = 'Благодарим Ви за отзива. Той беше изпратен за одобрение';
 $_['text_related']             = 'Свързани продукти';
-$_['text_tags']                = 'Тагове:';
+$_['text_tags']                = 'Етикети';
 $_['text_error']               = 'Продуктът не е открит!';
 $_['text_payment_recurring']   = 'Профил плащания';
 $_['text_trial_description']   = '%s всеки %d %s(и) за %d плащания когато';
@@ -42,8 +42,8 @@ $_['text_year']                = 'година';
 // Entry
 $_['entry_qty']                = 'Количество:';
 $_['entry_name']               = 'Вашето име';
-$_['entry_review']             = 'Вишият отзив';
-$_['entry_rating']             = 'Рейтинг';
+$_['entry_review']             = 'Вашият отзив';
+$_['entry_rating']             = 'Рейтинг: ';
 $_['entry_good']               = 'Добър';
 $_['entry_bad']                = 'Лош';
 
