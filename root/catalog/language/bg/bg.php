@@ -10,7 +10,7 @@ $_['decimal_point']         = ',';
 $_['thousand_point']        = ' ';
 
 // Text
-$_['text_home']             = 'Home';
+$_['text_home']             = 'Начало';
 $_['text_yes']              = 'Да';
 $_['text_no']               = 'Не';
 $_['text_none']             = ' --- Нищо --- ';

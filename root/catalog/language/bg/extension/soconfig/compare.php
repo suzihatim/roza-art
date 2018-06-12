@@ -1,16 +1,16 @@
 <?php
 // Heading  
-$_['heading_title']          = 'SOthemes Compare';
+$_['heading_title']          = 'Сравнение на продукти';
 
 // Text
-$_['text_title']             = 'Product added to compare';
+$_['text_title']             = 'Продуктът е добавен за сравнение.';
 $_['text_thumb']             = '<img src="%s" alt="" />';
-$_['text_success']           = 'Success: You have added <a href="%s">%s</a> to your <a href="%s">product comparison</a>!';
+$_['text_success']           = 'Успешно добавихте <a href="%s">%s</a> за <a href="%s">сравнение</a>!';
 $_['text_items']             = '%s';
-$_['text_compare']   	   	 = 'Compare (%s)';
-$_['text_failure']           = 'Failure';
-$_['text_exists']            = 'Some items are already listed in product comparison';
+$_['text_compare']   	   	 = 'Сравни (%s)';
+$_['text_failure']           = 'Грешка';
+$_['text_exists']            = 'Някои от продуктите са вече в списъка за сравнение.';
 // Error
-$_['error_required']         = '%s required!';	
+$_['error_required']         = '%s е задължително!';	
 
 ?>

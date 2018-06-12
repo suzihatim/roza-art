@@ -1,14 +1,16 @@
 <?php
 // Heading
 $_['heading_title'] = 'So Social Login';
-$_['text_colregister'] = '<h2>NEW HERE?</h2>
-                            <p class="note-reg">Registration is free and easy!</p>
+$_['text_colregister'] = '<h2>НОВ ПОТРЕБИТЕЛ?</h2>
+                            <p class="note-reg">Регистрацията е безплатна и лесна!</p>
                             <ul class="list-log">
-                                <li>Faster checkout</li>
-                                <li>Save multiple shipping addresses</li>
-                                <li>View and track orders and more</li>
+                                <li>По-бързи поръчки</li>
+                                <li>Управление на адресите за доставка</li>
+                                <li>История на поръчките и още ...</li>
                             </ul>';
-$_['text_create_account']	= 'Create an account';
-$_['text_forgot_password']	= 'Forgot Your Password?';
-$_['text_title_popuplogin']	= 'Sign in Or Register';
-$_['text_title_login_with_social']	= 'Login with your social account';
+$_['text_create_account']	= 'Регистрация';
+$_['text_forgot_password']	= 'Забравили сте паролата си?';
+$_['text_title_popuplogin']	= 'Вход или Регистрация';
+$_['text_title_login_with_social']	= 'Вход със профил от социална мрежа';
+$_['text_email']	= 'Е-поща';
+$_['text_password']	= 'Парола';
