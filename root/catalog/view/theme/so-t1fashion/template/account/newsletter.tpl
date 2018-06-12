@@ -35,7 +35,7 @@
       <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" class="form-horizontal">
         <fieldset>
           <div class="form-group">
-            <label class="col-sm-2 control-label"><?php echo $entry_newsletter; ?></label>
+            <label class="col-sm-2 control-label" style="text-align: left"><?php echo $entry_newsletter; ?></label>
             <div class="col-sm-10">
               <?php if ($newsletter) { ?>
               <label class="radio-inline">
