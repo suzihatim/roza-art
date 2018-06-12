@@ -8,12 +8,12 @@
  *      Bitcoin: 1P3Zk93fhKURWT1rXiYxiLGuJ59oETxuTi
  */
 // Heading
-$_['heading_title']    = 'Абонамент за новости';
+$_['heading_title']    = 'Бюлетин';
 
 // Text
 $_['text_account']     = 'Профил';
 $_['text_newsletter']  = 'Бюлетин';
-$_['text_success']     = 'Успешно актуализирахте Вашият абонамент за бюлетин!';
+$_['text_success']     = 'Успешно актуализирахте вашият абонамент за бюлетин!';
 
 // Entry
-$_['entry_newsletter'] = 'Абониране';
+$_['entry_newsletter'] = 'Абониране за бюлетин?';
