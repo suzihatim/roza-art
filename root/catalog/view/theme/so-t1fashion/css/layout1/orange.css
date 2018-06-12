@@ -4700,12 +4700,12 @@ span.fa-stack {
       content: "";
       position: absolute;
       top: 16px;
-      width: 15px;
-      height: 15px;
-      background: url("../../images/icon/icon-genera.png") no-repeat left -23px;
-      left: 23px; }
+      width: 20px;
+      height: 20px;
+      background: url("../../images/icon-cart.png") no-repeat;
+      left: 19px}
     .products-list.list-masonry .product-layout .product-item-container .button-group .bts.addToCart:hover:before, .products-list.grid .product-layout .product-item-container .button-group .bts.addToCart:hover:before {
-      background: url("../../images/icon/icon-genera.png") no-repeat left -1px; }
+      background: url("../../images/icon-cart.png") no-repeat}
     .products-list.list-masonry .product-layout .product-item-container .button-group .bts.wishlist, .products-list.grid .product-layout .product-item-container .button-group .bts.wishlist {
       -webkit-transition: opacity 0.3s ease-in-out;
       -moz-transition: opacity 0.3s ease-in-out;

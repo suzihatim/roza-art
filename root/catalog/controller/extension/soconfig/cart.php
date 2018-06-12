@@ -345,7 +345,7 @@ class ControllerExtensionSoconfigCart extends Controller {
 				$this->load->model('tool/image'); 
 				$image = $this->model_tool_image->resize($product_info['image'], $this->config->get($this->config->get('config_theme') . '_image_cart_width'), $this->config->get($this->config->get('config_theme') . '_image_cart_height'));
 				$json['thumb'] = sprintf($this->language->get('text_thumb'), $image);
-				$json['success'] = sprintf($this->language->get('text_success'), $this->url->link('product/product', 'product_id=' . $this->request->post['product_id']), $product_info['name'], $this->url->link('checkout/cart'));
+				$json['success'] = sprintf($this->      language->get('text_success'), $this->url->link('checkout/cart'), $this->url->link('product/product', 'product_id=' . $this->request->post['product_id']), $product_info['name']);
 
 				// Unset all shipping and payment methods
 				unset($this->session->data['shipping_method']);

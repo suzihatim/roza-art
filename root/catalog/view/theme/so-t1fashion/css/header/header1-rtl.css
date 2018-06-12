@@ -275,11 +275,9 @@
 .typeheader-1 .header-top .header-top-center strong:before {
   content: "";
   position: absolute;
-  top: 1px;
-  width: 15px;
-  height: 15px;
-  background: url("../../images/icon/icon-genera.png") no-repeat -25px 0;
-  right: 1px;
+  width: 20px;
+  height: 20px;
+  background: url("../../images/icon-cart.png") no-repeat -25px 0;
 }
 .typeheader-1 .header-top .header-top-right {
   text-align: left;
@@ -534,11 +532,9 @@
 .typeheader-1 .shopping_cart .handle:before {
   content: "";
   position: absolute;
-  top: -3px;
-  width: 15px;
-  height: 15px;
-  background: url("../../images/icon/icon-genera.png") no-repeat left 0;
-  right: 1px;
+  width: 20px;
+  height: 20px;
+  background: url("../../images/icon-cart.png") no-repeat left 0;
 }
 .typeheader-1 .shopping_cart .btn-shopping-cart {
   display: block;
