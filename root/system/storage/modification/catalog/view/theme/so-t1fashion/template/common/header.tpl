@@ -184,12 +184,12 @@ else{ include(DIR_TEMPLATE.'default/template/soconfig/not_registry.php'); exit; 
  <fieldset class="fieldset login" data-hasrequired="* Required Fields">
  <div class="field email required email-input">
  <div class="control">
- <input name="email" value="" autocomplete="off" id="email" type="email" class="input-text" title="Email" placeholder="E-mail Address" />
+ <input name="email" value="" autocomplete="off" id="email" type="email" class="input-text" title="Email" placeholder="<?php echo $text_email?>" />
  </div>
  </div>
  <div class="field password required pass-input">
  <div class="control">
- <input name="password" type="password" autocomplete="off" class="input-text" id="pass" title="Password" placeholder="Password" />
+ <input name="password" type="password" autocomplete="off" class="input-text" id="pass" title="Password" placeholder="<?php echo $text_password?>" />
  </div>
  </div>
  <?php if ($setting['so_sociallogin_status']) {?>
