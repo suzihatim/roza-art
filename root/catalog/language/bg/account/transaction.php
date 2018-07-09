@@ -8,7 +8,7 @@
  *      Bitcoin: 1P3Zk93fhKURWT1rXiYxiLGuJ59oETxuTi
  */
 // Heading
-$_['heading_title']      = 'Вашите трансакции';
+$_['heading_title']      = 'История на трансакциите';
 
 // Column
 $_['column_date_added']  = 'Дата на добавяне';
@@ -17,6 +17,6 @@ $_['column_amount']      = 'Сума (%s)';
 
 // Text
 $_['text_account']       = 'Профил';
-$_['text_transaction']   = 'Вашите трансакции';
+$_['text_transaction']   = 'История на трансакциите';
 $_['text_total']         = 'Балансът ви към момента е:';
 $_['text_empty']         = 'Нямате направени трансакции!';

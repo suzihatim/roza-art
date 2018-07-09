@@ -10,7 +10,7 @@
 // Text
 $_['text_information']  = 'Информация';
 $_['text_service']      = 'Обслужване на клиенти';
-$_['text_extra']        = 'Други';
+$_['text_extra']        = 'Информация';
 $_['text_contact']      = 'Контакти';
 $_['text_return']       = 'Рекламации';
 $_['text_sitemap']      = 'Карта на сайта';
@@ -22,4 +22,5 @@ $_['text_account']      = 'Моят профил';
 $_['text_order']        = 'История на поръчките';
 $_['text_wishlist']     = 'Любими';
 $_['text_newsletter']   = 'Бюлетин';
+$_['text_transaction']   = 'История на трансакциите';
 $_['text_powered']      = 'Сиситема: <a href="http://www.opencart.com">OpenCart</a><br /> %s &copy; %s';

@@ -8,7 +8,7 @@
  *      Bitcoin: 1P3Zk93fhKURWT1rXiYxiLGuJ59oETxuTi
  */
 // Heading
-$_['heading_title']        = 'Прогнозни доставка и данъци';
+$_['heading_title']        = 'Изчисли доставка';
 
 // Text
 $_['text_success']         = 'Успешно: Вашата прогнозна доставка е приложена!';
