@@ -35,10 +35,7 @@
     <div id="content" class="<?php echo $class; ?>">
     <?php echo $content_top; ?>
       <div class="info-contact row">
-        <div class="col-sm-6 col-xs-12 info-store">
-          <?php if ($image) { ?>
-            <div id="map-canvas"><img src="<?php echo $image; ?>" alt="<?php echo $store; ?>" title="<?php echo $store; ?>" /></div>
-          <?php } ?>
+        <div style="display:none" class="col-sm-6 col-xs-12 info-store">
           <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBf-EZpcLV72omKDDxOlhG6-i8Ga8NenRo"></script>
             <?php if ($geocode) { ?>
               <script>
@@ -64,11 +61,10 @@
               <div id="map-canvas"></div>
             <?php } ?>  
         </div>
-        <div class="col-sm-6 col-xs-12 contact-form">
+        <div class="col-sm-12 col-xs-24 contact-form">
            <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" class="form-horizontal">
             <fieldset>
               <legend><h2><?php echo $text_contact; ?></h2></legend>
-              <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
               <div class="form-group required">
                 <div class="col-sm-12">
                   <input type="text" name="name" value="<?php echo $name; ?>" id="input-name" class="form-control" placeholder="<?php echo $entry_name; ?>*"/>
