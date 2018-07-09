@@ -1,6 +1,6 @@
 <div class="<?php echo $is_logged_in ? 'checkout-content' : ''; ?> checkout-<?php echo $type; ?>-form">
     <?php if (@$is_logged_in): ?>
-    <h2 class="secondary-title"><i class="fa fa-user"></i><?php echo $type === 'payment' ? 'Billing Address' : 'Delivery Address'; ?> </h2>
+    <h2 class="secondary-title"><i class="fa fa-user"></i><?php echo $type === 'payment' ? $text_billing_address : $text_delivery_address; ?> </h2>
     <?php endif; ?>
     <div class="box-inner">
         <form class="form-horizontal form-<?php echo $type; ?>">

@@ -127,6 +127,8 @@ class ControllerCheckoutCheckout extends Controller {
  $data['text_address_new'] = $this->language->get('text_address_new'); 
  $data['text_select'] = $this->language->get('text_select'); 
  $data['text_none'] = $this->language->get('text_none'); 
+ $data['text_billing_address'] = $this->language->get('text_billing_address'); 
+ $data['text_delivery_address'] = $this->language->get('text_delivery_address'); 
  
  $data['entry_firstname'] = $this->language->get('entry_firstname'); 
  $data['entry_lastname'] = $this->language->get('entry_lastname'); 
