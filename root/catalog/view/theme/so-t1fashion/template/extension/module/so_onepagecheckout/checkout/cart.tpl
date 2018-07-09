@@ -1,5 +1,5 @@
 <div class="checkout-content checkout-cart">
-    <h2 class="secondary-title"><i class="fa fa-shopping-cart"></i><?php echo $text_shopping_cart?> <?php if ($weight) echo '('.$weight.')'?></h2>
+    <h2 class="secondary-title"><i class="fa fa-shopping-cart"></i><?php echo $text_shopping_cart?></h2>
     <div class="box-inner">
         <div class="table-responsive checkout-product">
             <table class="table table-bordered table-hover">

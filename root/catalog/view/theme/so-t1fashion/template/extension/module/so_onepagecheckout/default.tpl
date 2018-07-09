@@ -105,7 +105,7 @@
     				</section>
 					
 					<section class=" col-lg-6 col-sm-12">
-						<div id="coupon_voucher_reward">
+						<div style="display:none" id="coupon_voucher_reward">
     					   <?php echo $coupon_voucher_reward; ?>
 						</div>
 					</section>
@@ -152,7 +152,7 @@
                             </div>
                             <?php endif; ?>
                             <div class="confirm-order">
-                                <button id="so-checkout-confirm-button" data-loading-text="<?php echo $text_loading?>" class="btn btn-primary button confirm-button"><?php echo $text_confirm_order?></button>
+                                <button id="so-checkout-confirm-button" data-loading-text="<?php echo $text_loading?>" class="btn btn-primary"><?php echo $text_confirm_order?></button>
                             </div>                            
                         </div>
     				</section>
