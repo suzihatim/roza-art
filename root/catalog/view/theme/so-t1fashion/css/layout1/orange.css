@@ -345,7 +345,7 @@
   color: white; }
 
 .social-widgets .twitter .tab-icon {
-  background: #07779a;
+  background: #1DA1F2;
   background-clip: content-box;
   color: white; }
 
@@ -6188,11 +6188,15 @@ footer {
     display: inline-block;
     margin-right: 15px; }
   footer .follow-us .li-social .fa.fa-twitter {
-    background: #e14a3c; }
+    background: #1DA1F2; }
+  footer .follow-us .li-social .fa.fa-instagram {
+    background: #8a3ab9; }    
   footer .follow-us .li-social .fa.fa-linkedin {
     background: #2fc2ee; }
   footer .follow-us .li-social .fa.fa-pinterest {
     background: #df2227; }
+  footer .follow-us .li-social .fa.fa-youtube {
+    background: #da2723; }        
   footer .follow-us .li-social .fa:hover {
     background: #f6a325 !important; }
   footer .follow-us .li-social p {
@@ -6260,6 +6264,11 @@ footer {
     line-height: 32px;
     font-size: 13px;
     color: #aaa; }
+  footer .footer-center .footer-contact ul > li.phone {
+    margin-bottom: 22px;
+    line-height: 32px;
+    font-size: 13px;
+    color: #aaa; } 
   footer .footer-center .custom_categories {
     border-top: 1px solid #e0e0e0;
     text-align: center;
