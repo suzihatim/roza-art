@@ -9,7 +9,7 @@ $_['text_colregister'] = '<h2>НОВ ПОТРЕБИТЕЛ?</h2>
                                 <li>История на поръчките и още ...</li>
                             </ul>';
 $_['text_create_account']	= 'Регистрация';
-$_['text_forgot_password']	= 'Забравили сте паролата си?';
+$_['text_forgot_password']	= 'Забравена парола';
 $_['text_title_popuplogin']	= 'Вход или Регистрация';
 $_['text_title_login_with_social']	= 'Вход със профил от социална мрежа';
 $_['text_email']	= 'Е-поща';
