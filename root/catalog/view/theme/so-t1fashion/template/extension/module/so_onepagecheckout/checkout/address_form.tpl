@@ -58,7 +58,7 @@
                 <div class="form-group required">
                     <input type="text" name="<?php echo $type; ?>_postcode" value="<?php echo $postcode; ?>" placeholder="<?php echo $entry_postcode; ?> *" id="input-<?php echo $type; ?>-postcode" class="form-control"/>
                 </div>
-                <div class="form-group required">
+                <div class="form-group required" style="display:none">
                     <select name="<?php echo $type; ?>_country_id" id="input-<?php echo $type; ?>-country" class="form-control">
                         <option value=""><?php echo $text_select; ?></option>
                         <?php foreach ($countries as $country) { ?>

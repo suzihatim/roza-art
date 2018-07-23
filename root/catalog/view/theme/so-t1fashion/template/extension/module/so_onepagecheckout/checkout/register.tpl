@@ -34,7 +34,7 @@
             <div class="form-group required">
                 <input type="text" name="telephone" value="<?php echo SoUtils::getProperty($order_data, 'telephone'); ?>" placeholder="<?php echo $entry_telephone; ?> *" id="input-payment-telephone" class="form-control"/>
             </div>
-            <div class="form-group fax-input">
+            <div class="form-group fax-input" style="display:none">
                 <input type="text" name="fax" value="<?php echo SoUtils::getProperty($order_data, 'fax'); ?>" placeholder="<?php echo $entry_fax; ?>" id="input-payment-fax" class="form-control"/>
             </div>
             <?php foreach ($custom_fields as $custom_field) { ?>
