@@ -1,19 +1,19 @@
 var count_loading=0;
 function ajaxLoadingOn(){
-	$('body > .tooltip').remove();
+   /*$('body > .tooltip').remove();
 	count_loading++;
 	if(count_loading===1){
 		$('.so-onepagecheckout #so-checkout-confirm-button').button('loading');
 		$('.so-onepagecheckout #so-checkout-confirm-button, .so-onepagecheckout .checkout-register, .so-onepagecheckout .checkout-payment-form, .so-onepagecheckout .checkout-shipping-form, .so-onepagecheckout .checkout-cart, .so-onepagecheckout .confirm-section, .so-onepagecheckout .checkout-shipping-methods, .so-onepagecheckout .checkout-payment-methods, .so-onepagecheckout .coupon-voucher').addClass('checkout-loading');
-	}
+	}*/
 }
 
 function ajaxLoadingOff(){
-	count_loading--;
+	/*count_loading--;
 	if(count_loading===0){
 		$('.so-onepagecheckout #so-checkout-confirm-button').button('reset');
 		$('.so-onepagecheckout #so-checkout-confirm-button, .so-onepagecheckout .checkout-register, .so-onepagecheckout .checkout-payment-form, .so-onepagecheckout .checkout-shipping-form, .so-onepagecheckout .checkout-cart, .so-onepagecheckout .confirm-section, .so-onepagecheckout .checkout-shipping-methods, .so-onepagecheckout .checkout-payment-methods, .so-onepagecheckout .coupon-voucher').removeClass('checkout-loading');
-	}
+	}*/
 }
 
 jQuery(document).ready(function($) {
