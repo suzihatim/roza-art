@@ -128,6 +128,7 @@ class ControllerCommonHeader extends Controller {
  $data['text_title_login_with_social'] = $this->language->get('text_title_login_with_social');
  $data['text_email'] = $this->language->get('text_email');
  $data['text_password'] = $this->language->get('text_password');
+ $data['forgotten'] = $this->url->link('account/forgotten', '', true);
  }
  
 

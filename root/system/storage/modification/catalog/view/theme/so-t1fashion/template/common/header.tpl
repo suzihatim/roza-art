@@ -247,7 +247,7 @@ else{ include(DIR_TEMPLATE.'default/template/soconfig/not_registry.php'); exit; 
  </div>
  </div>
  <?php }?>
- <div class="secondary ft-link-p"><a class="action remind" href=""><span><?php echo $text_forgot_password?></span></a></div>
+ <div class="secondary ft-link-p"><a class="action remind" href="<?php echo $forgotten; ?>"><span><?php echo $text_forgot_password?></span></a></div>
  <div class="actions-toolbar">
  <div class="primary"><button type="submit" class="action login primary" name="send" id="send2"><span><?php echo $text_login?></span></button></div>
  </div>
