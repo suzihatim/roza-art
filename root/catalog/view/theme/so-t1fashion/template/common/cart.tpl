@@ -11,7 +11,7 @@
   <ul class="dropdown-menu pull-right shoppingcart-box">
       <?php if ($products || $vouchers) { ?>
 	  <?php if(count($products) >3):?>
-      <li>
+      <li style="display:none">
           <div class="added_items"><?php echo (count($products) <= 3 ? '' : 'Last 3 added item(s) from '.count($products)) ; ?></div>
       </li>
 	  <?php endif; ?>

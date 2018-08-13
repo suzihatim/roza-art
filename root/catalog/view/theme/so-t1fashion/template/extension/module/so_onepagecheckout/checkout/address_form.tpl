@@ -55,8 +55,8 @@
                 <div class="form-group required">
                     <input type="text" name="<?php echo $type; ?>_city" value="<?php echo SoUtils::getProperty($order_data, $type . '_city'); ?>" placeholder="<?php echo $entry_city; ?> *" id="input-<?php echo $type; ?>-city" class="form-control"/>
                 </div>
-                <div class="form-group required">
-                    <input type="text" name="<?php echo $type; ?>_postcode" value="<?php echo $postcode; ?>" placeholder="<?php echo $entry_postcode; ?> *" id="input-<?php echo $type; ?>-postcode" class="form-control"/>
+                <div class="form-group">
+                    <input type="text" name="<?php echo $type; ?>_postcode" value="<?php echo $postcode; ?>" placeholder="<?php echo $entry_postcode; ?>" id="input-<?php echo $type; ?>-postcode" class="form-control"/>
                 </div>
                 <div class="form-group required" style="display:none">
                     <select name="<?php echo $type; ?>_country_id" id="input-<?php echo $type; ?>-country" class="form-control">

@@ -88,7 +88,7 @@
                 
     			<div class="col-right col-sm-8 col-xs-12">
     				<div class="row">
-					<section class="section-left  col-lg-6 col-sm-12">
+					<section class="section-left  col-lg-12 col-sm-12">
     					<?php if ($is_logged_in) { ?>
                         	<?php echo $payment_address; ?>
                         	<?php if ($is_shipping_required) { ?>
@@ -104,8 +104,8 @@
                         </div>
     				</section>
 					
-					<section class=" col-lg-6 col-sm-12">
-						<div style="display:none" id="coupon_voucher_reward">
+					<section class=" col-lg-6 col-sm-12" style="display:none">
+						<div id="coupon_voucher_reward">
     					   <?php echo $coupon_voucher_reward; ?>
 						</div>
 					</section>
@@ -152,7 +152,7 @@
                             </div>
                             <?php endif; ?>
                             <div class="confirm-order">
-                                <button id="so-checkout-confirm-button" data-loading-text="<?php echo $text_loading?>" class="btn btn-primary"><?php echo $text_confirm_order?></button>
+                                <button id="so-checkout-confirm-button" data-loading-text="<?php echo $text_loading?>" class="btn btn-primary button confirm-button"><?php echo $text_confirm_order?></button>
                             </div>                            
                         </div>
     				</section>
