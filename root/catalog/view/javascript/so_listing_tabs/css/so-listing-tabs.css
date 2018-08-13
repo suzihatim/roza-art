@@ -177,7 +177,7 @@
 	vertical:middle;
 	margin-top:2px;
 }
-.so-listing-tabs .loaded .add-loadmore {
+.so-listing-tabs .loaded {
 	display:none;
 }
 .so-listing-tabs .ltabs-tabs-container .ltabs-tabs-wrap.ltabs-selectbox .ltabs-tabs {
@@ -315,11 +315,7 @@
 }
 
 .so-listing-tabs .ltabs-items   .ltabs-loadmore .ltabs-loadmore-btn .ltabs-image-loading {
-	background: url('../images/301.gif') no-repeat scroll center center transparent;
-	width: 22px;
-	height: 22px;
 	display: none;
-	margin-right: 10px;
 	vertical-align: middle;
 }
 

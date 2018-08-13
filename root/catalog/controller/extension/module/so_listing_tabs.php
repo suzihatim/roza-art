@@ -5,6 +5,8 @@ class ControllerExtensionModuleSolistingtabs extends Controller {
 		$this->load->language('extension/module/so_listing_tabs');
 		$data['heading_title'] = $this->language->get('heading_title');
 		$data['text_tax'] = $this->language->get('text_tax');
+		$data['load_more_label'] = $this->language->get('load_more_label');
+		$data['all_ready_label'] = $this->language->get('all_ready_label');
 		
 		$this->load->model('design/banner');
 		$this->load->model('tool/image');

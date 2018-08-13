@@ -79,13 +79,13 @@
 						data-categoryid	="<?php echo $items['category_id']; ?>"
 						data-rl_start		="<?php echo $source_limit ?>"
 						data-rl_total		="<?php echo $items['count'] ?>"
-						data-rl_allready	="All ready"
+						data-rl_allready	="<?php echo $objlang->get('all_ready_label'); ?>"
 						data-ajaxurl  		="<?php echo "$http$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ?>"
 						data-rl_load		="<?php echo $source_limit ?>" 
 						data-moduleid		='<?php echo $moduleid; ?>'
 						 >
 						<div class="ltabs-loadmore-btn <?php echo $classloaded ?>"
-							 data-label="<?php echo ($classloaded) ? "All ready" : "Load more"; ?>">
+							 data-label="<?php echo $objlang->get('load_more_label'); ?>">
 							<span class="ltabs-image-loading"></span>
 						</div>
 					</div>

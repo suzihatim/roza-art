@@ -168,6 +168,7 @@ jQuery(document).ready(function ($) {
 				$('.ltabs-image-loading', $el).css({display: 'none'});
 				$('.ltabs-loadmore-btn', $el).attr('data-label', rl_allready);
 				$('.ltabs-loadmore-btn', $el).removeClass('loading');
+				$('.ltabs-loadmore-btn', $el).removeClass('ltabs-loadmore-btn');				
 			}
 		}
 
