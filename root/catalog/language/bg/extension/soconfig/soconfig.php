@@ -8,7 +8,7 @@ $_['countdown_title_second']          = 'Сек.';
 $_['overview']          = 'Описание';
 
 // Quickview
-$_['button_detail'] 		  = 'Detail';
+$_['button_detail'] 		  = 'Още';
 $_['text_category_stock_quantity']  = 'Побързай! Остават само %s!';
 
 // Home page
@@ -36,7 +36,7 @@ $_['text_instock']            = ' В наличност ';
 $_['text_show_cate']          = ' Всички категории ';
 $_['button_quickview']        = 'Add to Quickview';
 $_['text_hotline']       	  = 'Hot Line';
-$_['text_compare']       	  = 'Сравни';
+$_['text_compare']       	  = 'Сравняване';
 $_['text_sidebar']       	  = 'Sidebar';
 
 // Category page

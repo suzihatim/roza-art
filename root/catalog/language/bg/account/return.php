@@ -30,8 +30,8 @@ $_['text_empty']         = 'Нямате предишни връщания!';
 $_['text_agree']         = 'Прочел съм и съм съгласен с <a href="%s" class="agree"><b>%s</b></a>';
 
 // Column
-$_['column_return_id']   = 'Връщане No';
-$_['column_order_id']    = 'Поръчка No';
+$_['column_return_id']   = 'Връщане №';
+$_['column_order_id']    = 'Поръчка №';
 $_['column_status']      = 'Статус';
 $_['column_date_added']  = 'Дата на добавяне';
 $_['column_customer']    = 'Клиент';

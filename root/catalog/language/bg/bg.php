@@ -27,7 +27,7 @@ $_['button_continue']       = 'Продължи';
 $_['button_cart']           = 'Купи';
 $_['button_cancel']         = 'Откажи';
 $_['button_compare']        = 'Сравни';
-$_['button_wishlist']       = 'Добави в любими';
+$_['button_wishlist']       = 'Към любими';
 $_['button_checkout']       = 'Поръчай';
 $_['button_confirm']        = 'Потвърди';
 $_['button_coupon']         = 'Използвай ваучер';
@@ -55,7 +55,7 @@ $_['button_upload']         = 'Изпрати файл';
 $_['button_reward']         = 'Използвай наградни точки';
 $_['button_quote']          = 'Изчисли цена';
 $_['button_list']           = 'Списък';
-$_['button_grid']           = 'Решетка';
+$_['button_grid']           = 'Грид';
 $_['button_map']            = 'Карта';
 
 // Error

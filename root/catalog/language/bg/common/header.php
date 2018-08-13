@@ -18,6 +18,7 @@ $_['text_login']         = 'Вход';
 $_['text_order']         = 'Поръчки';
 $_['text_transaction']   = 'Трансакции';
 $_['text_download']      = 'Изтегляния';
+$_['text_compare']      = 'Сравняване';
 $_['text_logout']        = 'Изход';
 $_['text_checkout']      = 'Плащане';
 $_['text_search']        = 'Търсене';

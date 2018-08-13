@@ -20,7 +20,7 @@ $_['text_affiliate']    = 'Партньорска програма';
 $_['text_special']      = 'Специални предложения';
 $_['text_account']      = 'Моят профил';
 $_['text_order']        = 'История на поръчките';
-$_['text_wishlist']     = 'Любими';
+$_['text_wishlist']     = 'Любими продукти';
 $_['text_newsletter']   = 'Бюлетин';
 $_['text_transaction']   = 'История на трансакциите';
 $_['text_powered']      = 'Сиситема: <a href="http://www.opencart.com">OpenCart</a><br /> %s &copy; %s';

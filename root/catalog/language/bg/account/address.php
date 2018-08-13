@@ -8,15 +8,15 @@
  *      Bitcoin: 1P3Zk93fhKURWT1rXiYxiLGuJ59oETxuTi
  */
 // Heading
-$_['heading_title']        = 'Списък с адреси';
+$_['heading_title']        = 'Адреси';
 
 // Text
 $_['text_account']         = 'Профил';
-$_['text_address_book']    = 'Списък с адреси';
-$_['text_edit_address']    = 'Редактиране на адрес';
-$_['text_add']             = 'Вашият адрес е успешно добавен';
-$_['text_edit']            = 'Вашият адрес е успешно обновен';
-$_['text_delete']          = 'Вашият адрес е успешно изтрит';
+$_['text_address_book']    = 'Адреси';
+$_['text_edit_address']    = 'Редакция на адрес';
+$_['text_add']             = 'Вашият адрес е успешно добавен.';
+$_['text_edit']            = 'Вашият адрес е успешно обновен.';
+$_['text_delete']          = 'Вашият адрес е успешно изтрит.';
 $_['text_empty']           = 'Вие нямате адреси в профила си.';
 
 // Entry

@@ -15,3 +15,6 @@ $_['value_sell'] 		= 'Best sellers';
 $_['text_noproduct']    = 'Has no item to show!';
 $_['text_sale']      	= 'Sale';
 $_['text_new']      	= 'New';
+
+$_['all_ready_label'] 	= 'И други ...';
+$_['load_more_label'] 	= 'Покажи още';

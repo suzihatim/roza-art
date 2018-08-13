@@ -12,7 +12,7 @@ $_['heading_title']         = 'История на поръчките';
 
 // Text
 $_['text_account']          = 'Профил';
-$_['text_order']            = 'Информация';
+$_['text_order']            = 'Информация за поръчка';
 $_['text_order_detail']     = 'Детайли';
 $_['text_invoice_no']       = 'Фактура №';
 $_['text_order_id']         = 'Поръчка №';
