@@ -80,7 +80,7 @@
                     <td><?php echo $products[$product['product_id']]['model']; ?></td>
                     <?php } ?>
                 </tr>
-                <tr>
+                <tr style="display:none">
                     <td><?php echo $text_manufacturer; ?></td>
                     <?php foreach ($products as $product) { ?>
                     <td><?php echo $products[$product['product_id']]['manufacturer']; ?></td>
@@ -114,13 +114,13 @@
                     <td class="description"><?php echo $products[$product['product_id']]['description']; ?></td>
                     <?php } ?>
                 </tr>
-                <tr>
+                <tr style="display:none">
                     <td><?php echo $text_weight; ?></td>
                     <?php foreach ($products as $product) { ?>
                     <td><?php echo $products[$product['product_id']]['weight']; ?></td>
                     <?php } ?>
                 </tr>
-                <tr>
+                <tr style="display:none">
                     <td><?php echo $text_dimension; ?></td>
                     <?php foreach ($products as $product) { ?>
                     <td><?php echo $products[$product['product_id']]['length']; ?> x <?php echo $products[$product['product_id']]['width']; ?> x <?php echo $products[$product['product_id']]['height']; ?></td>
