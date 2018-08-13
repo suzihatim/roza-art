@@ -32,6 +32,7 @@
 								<li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
 								<li><a href="<?php echo $transaction; ?>"><?php echo $text_transaction; ?></a></li>
 								<li class="wishlist"><a href="<?php echo $wishlist; ?>" id="wishlist-total" class="top-link-wishlist" title="<?php echo $text_wishlist; ?>"><span><?php echo $text_wishlist; ?></span></a></li>
+								<li><a href="<?php echo $compare; ?>"><?php echo $text_compare; ?></a></li>
 								<li><a href="<?php echo $logout; ?>"><?php echo $text_logout; ?></a></li>
 								
 								<?php } else { ?>
