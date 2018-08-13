@@ -194,7 +194,7 @@
 						<?php if ($points) { ?>
 						<div class="reward"><span><?php echo $text_points; ?></span> <?php echo $points; ?></div>
 						<?php } ?>
-						<div class="stock"><span><?php echo $text_stock; ?></span> <i class="fa fa-check-square-o"></i> <?php echo $stock; ?></div>			
+						<div class="stock"><i class="fa fa-check-square-o"></i> <?php echo $stock; ?></div>			
 					</div>
 					</div>
 				</div>

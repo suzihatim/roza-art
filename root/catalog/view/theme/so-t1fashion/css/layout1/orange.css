@@ -5772,7 +5772,6 @@ left-content-product.product-view .flexslider-thumb.not_full_slider {
   .bottom-product .nav-tabs li:first-child a {
     padding-left: 0; }
     .bottom-product .nav-tabs li:first-child a:before {
-      content: '/';
       position: absolute;
       top: 11px;
       color: #d8d8d8;

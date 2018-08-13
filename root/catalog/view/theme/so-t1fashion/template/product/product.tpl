@@ -831,15 +831,15 @@
 			<div class="bottom-product clearfix">
 				<ul class="nav nav-tabs">
 				<?php if (!empty($products)) : ?>
-				  <li><a data-toggle="tab" href="#product-related"><?php echo $text_related; ?></a></li>
+				  <li class="active"><a data-toggle="tab" href="#product-related"><?php echo $text_related; ?></a></li>
 				<?php endif; ?>  
-				  <li class="active"><a data-toggle="tab" href="#product-upsell">UPSELL PRODUCTS</a></li>
+				  <li style="display:none"><a data-toggle="tab" href="#product-upsell">UPSELL PRODUCTS</a></li>
 				</ul>
-				<div class="des-product">
+				<div style="display:none" class="des-product">
 					<?php echo $objlang->get('text_des'); ?>
 				</div>
 				<div class="tab-content">
-				  	<div id="product-related" class="tab-pane fade">
+				  	<div id="product-related" class="tab-pane fade in active">
 				   		<?php 
 						// TAB RELATED PRODUCT HORI 
 						if (isset($related_status) && $related_status && $related_position =='horizontal') :
@@ -848,7 +848,7 @@
 						endif;
 						?>
 				  	</div>
-				  	<div id="product-upsell" class="tab-pane fade in active">
+				  	<div id="product-upsell" class="tab-pane fade">
 				   		<?php echo $content_bottom; ?>
 				  	</div>
 				</div>
